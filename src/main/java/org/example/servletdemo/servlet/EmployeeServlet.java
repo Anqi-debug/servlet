@@ -21,7 +21,7 @@ public class EmployeeServlet implements Servlet {
     private Connection getConnection() throws SQLException {
         String jdbcURL = "jdbc:mysql://localhost:3306/servlet?useSSL=false&serverTimezone=UTC";
         String jdbcUsername = "root";
-        String jdbcPassword = "Anqi218549";
+        String jdbcPassword = "PW";
 
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
