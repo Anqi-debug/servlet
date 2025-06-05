@@ -7,7 +7,7 @@ public class DBTest {
     public static void main(String[] args) {
         String jdbcURL = "jdbc:mysql://localhost:3306/servlet?useSSL=false&serverTimezone=UTC";
         String jdbcUsername = "root";
-        String jdbcPassword = "Anqi218549";
+        String jdbcPassword = "PW";
 
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
